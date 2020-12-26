@@ -31,4 +31,4 @@ $ vi src/index.html
 $ npx webpack --mode production
 ```
 
-URL: `file://wsl%24/Ubuntu-20.04/home/{ユーザ名}/{リポジトリルート}/try_react/index.html`
+URL: `file://wsl%24/Ubuntu-20.04/home/{ユーザ名}/{リポジトリルート}/try_react/dist/index.html`
