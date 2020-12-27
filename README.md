@@ -32,3 +32,15 @@ $ npx webpack --mode production
 ```
 
 URL: `file://wsl%24/Ubuntu-20.04/home/{ユーザ名}/{リポジトリルート}/try_react/dist/index.html`
+
+4. Bootstrap5 を導入
+
+```bash
+$ npm install -D css-loader file-loader sass sass-loader fibers postcss-loader autoprefixer mini-css-extract-plugin
+$ npm install bootstrap@next @popperjs/core
+$ vi webpack.config.js
+$ vi src/index.tsx
+$ vi src/custom.scss
+$ vi src/index.html
+$ npx webpack --mode production
+```
